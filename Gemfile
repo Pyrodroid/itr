@@ -46,8 +46,13 @@ group :development, :test do
   gem 'guard-rspec'
   
   # Use sqlite3 as the database for Active Record
+  group :develompemnt, :test do
   gem 'sqlite3'
+end
 
+  group :production do
+    gem 'pg'
+  end
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   
