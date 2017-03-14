@@ -45,10 +45,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
   
-  # Use sqlite3 as the database for Active Record
-  group :develompemnt, :test do
-  gem 'sqlite3'
-end
+  # Use sqlite3 as the database for Active Recordgroup :develompemnt, :test d//  gem 'sqlite3'
+
 
   group :production do
     gem 'pg'
