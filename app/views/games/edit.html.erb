@@ -1,0 +1,13 @@
+<h1>Sign Up for </h1>
+
+<%= form_for :game, url: games_path(@game), method: :patch do |f| %>
+  <p>
+
+    <%= f.label :your_email %><br>
+    <%= f.text_field :details %><br><br>
+</p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
